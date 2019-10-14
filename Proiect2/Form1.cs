@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,8 +52,6 @@ namespace Proiect2
         {
             index++;
             Persoana obj = new Persoana(index, textBox1.Text, dateTimePicker1.Value, textBox2.Text, textBox3.Text, (Categorie)comboBox1.SelectedIndex);
-            sw.WriteLine("\r\n----------------------------------\r\nNume: " + obj.Nume + "\r\nCategorie: "
-                + obj.Categorie + "\r\nData Nasterii: " + obj.Data + "\r\nTelefon: " + obj.Telefon + "\r\nAdresa: " + obj.Adresa);
             lista.Add(obj);
             propertyGrid1.SelectedObject = obj;
             TreeNode childNode = new TreeNode();
@@ -105,6 +103,12 @@ namespace Proiect2
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            foreach(Persoana p in lista)
+            {
+                sw.WriteLine("\r\n----------------------------------\r\nNume: " + p.Nume + "\r\nCategorie: "
+     + p.Categorie + "\r\nData Nasterii: " + p.Data + "\r\nTelefon: " + p.Telefon + "\r\nAdresa: " + p.Adresa);
+
+            }
             sw.Close();
             Process.Start("notepad.exe", Application.StartupPath.ToString() + "\\lista.txt");
         }
