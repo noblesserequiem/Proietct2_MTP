@@ -1,0 +1,14 @@
+
+----------------------------------
+ Nume: 1
+Categorie: Prieteni
+Data Nasterii: 10/14/2019 2:32:28 PM
+Telefon: 111
+Adresa: 111
+
+----------------------------------
+ Nume: n2
+Categorie: Colegi
+Data Nasterii: 10/14/2019 2:32:28 PM
+Telefon: 333
+Adresa: 444

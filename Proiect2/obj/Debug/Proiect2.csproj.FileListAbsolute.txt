@@ -1,0 +1,10 @@
+C:\Users\Student\Desktop\Proiect2\Proiect2\bin\Debug\Proiect2.exe.config
+C:\Users\Student\Desktop\Proiect2\Proiect2\bin\Debug\Proiect2.exe
+C:\Users\Student\Desktop\Proiect2\Proiect2\bin\Debug\Proiect2.pdb
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.Form1.resources
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.Properties.Resources.resources
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.exe
+C:\Users\Student\Desktop\Proiect2\Proiect2\obj\Debug\Proiect2.pdb
